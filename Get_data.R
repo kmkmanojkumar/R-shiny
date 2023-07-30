@@ -5,6 +5,7 @@ library(reshape2)
 
 #123
 #456
+#yuxgyud
 
 
 ##Merge the NASDAQ and NYSE csv files. Files found at http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nasdaq&render=download
