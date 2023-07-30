@@ -3,6 +3,7 @@
 library(quantmod)
 library(reshape2)
 
+#123
 
 
 ##Merge the NASDAQ and NYSE csv files. Files found at http://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nasdaq&render=download
@@ -14,8 +15,12 @@ NYSE <- read.csv("NYSE.csv")
 NYSE <- cbind(NYSE, "Stock.Exchange"="NYSE")
 Stocks_df <- data.frame(rbind(NASDAQ, NYSE))
 ##write.csv(Stocks_df, "AllStocks.csv", row.names=FALSE)
+<<<<<<< HEAD
 #ABC
 #EFGjgffkhhg
+=======
+kjfgdiuge
+>>>>>>> calc
 
 
 ##Create function to get stock prices/info using a function and bind industry/sector info 
