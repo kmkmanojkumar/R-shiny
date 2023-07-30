@@ -15,8 +15,6 @@ NYSE <- cbind(NYSE, "Stock.Exchange"="NYSE")
 Stocks_df <- data.frame(rbind(NASDAQ, NYSE))
 ##write.csv(Stocks_df, "AllStocks.csv", row.names=FALSE)
 #ABC
-#EFG
-#hij
 
 
 ##Create function to get stock prices/info using a function and bind industry/sector info 
